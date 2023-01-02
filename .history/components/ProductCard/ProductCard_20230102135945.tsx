@@ -15,7 +15,7 @@ function ProductCard() {
         </div>
 
         {/* product title  */}
-        <h2 className='product-title' title='Best Headphone ever'>Best Headphone</h2>
+        <h2 className='product-title' title='Best Headphone'>Best Headphone</h2>
       </div>
     </div>
   );
