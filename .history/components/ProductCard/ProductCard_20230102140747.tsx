@@ -27,7 +27,7 @@ function ProductCard() {
           <span className="text-xl font-bold">Fc 400.000</span>
           <div className="flex items-center gap-2 mt-1">
             <span className="text-sm line-through opacity-50">Fc 500.000</span>
-            <span className='discount-percent'>Save 20%</span>
+            <span>Save 20%</span>
           </div>
         </div>
       </div>
