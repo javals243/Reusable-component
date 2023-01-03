@@ -8,7 +8,7 @@ function ModalComponent() {
   return (
     <div className="flex justify-center items-center h-[100vh]">
       <button onClick={toggleModal} className={styles.btn_modal}>
-        open
+        open modal
       </button>
       {modal && (
         <div className={styles.modal}>

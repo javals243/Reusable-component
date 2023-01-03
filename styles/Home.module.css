@@ -48,12 +48,10 @@
     }
 }
 
-body.active_modal {
-    overflow-y: hidden;
-}
-
 .btn_modal {
     padding: 10px 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
     display: block;
     margin: 100px auto 0;
     font-size: 18px;
