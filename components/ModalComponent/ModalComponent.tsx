@@ -21,10 +21,10 @@ function ModalComponent() {
               quidem suscipit nemo dolor doloremque quibusdam cupiditate porro
               commodi similique mollitia quae.
             </p>
+            <button onClick={toggleModal} className={styles.close_modal}>
+              Close
+            </button>
           </div>
-          <button onClick={toggleModal} className={styles.close_modal}>
-            Close
-          </button>
         </div>
       )}
     </div>
