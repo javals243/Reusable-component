@@ -16,7 +16,7 @@
     background: #000;
     border-radius: 9999px;
     transform: scaleX(0);
-    transform-origin: center;
+    transform-origin: right;
     transition: transform 0.4s ease-in-out;
 }
 

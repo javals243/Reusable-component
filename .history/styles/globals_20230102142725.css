@@ -24,5 +24,4 @@
     .button-primary{
       @apply bg-yellow-500/80 hover:bg-yellow-500/90 rounded-md px-6 py-2 text-white font-medium tracking-wide transition
     }
-    
 }

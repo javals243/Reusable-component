@@ -1,5 +1,6 @@
 .underlineAnimation {
     font-size: 50px;
+    background: #000;
     text-decoration: none;
     position: relative;
     text-transform: uppercase;
@@ -7,19 +8,12 @@
 }
 
 .underlineAnimation::after {
-    content: "";
     display: block;
     position: absolute;
     bottom: 0;
     height: 2px;
     width: 100%;
-    background: #000;
     border-radius: 9999px;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.4s ease-in-out;
-}
-
-.underlineAnimation:hover::after {
-    transform: scaleX(1);
+    content: "";
+    after: scale-0 after: ease-in-out after: duration-300 hover: after: scale-100;
 }

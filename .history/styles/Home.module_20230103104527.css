@@ -7,16 +7,14 @@
 }
 
 .underlineAnimation::after {
-    content: "";
     display: block;
     position: absolute;
     bottom: 0;
     height: 2px;
     width: 100%;
-    background: #000;
     border-radius: 9999px;
+    content: "";
     transform: scaleX(0);
-    transform-origin: center;
     transition: transform 0.4s ease-in-out;
 }
 

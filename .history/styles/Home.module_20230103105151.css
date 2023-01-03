@@ -1,15 +1,15 @@
 .underlineAnimation {
     font-size: 50px;
     text-decoration: none;
-    position: relative;
+    /* position: relative; */
     text-transform: uppercase;
     color: #000;
 }
 
 .underlineAnimation::after {
     content: "";
-    display: block;
-    position: absolute;
+    /* display: block; */
+    /* position: absolute; */
     bottom: 0;
     height: 2px;
     width: 100%;

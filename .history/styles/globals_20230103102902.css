@@ -24,5 +24,7 @@
     .button-primary{
       @apply bg-yellow-500/80 hover:bg-yellow-500/90 rounded-md px-6 py-2 text-white font-medium tracking-wide transition
     }
-    
+    .underlineAnimation{
+        @apply  text-[50px] no-underline relative uppercase text-black after:block after:absolute   after:bottom-0 after:h-[2px] w-[100%]   rounded-[9999px] after:content-[""] after:scale-0 after:ease-in-out after:duration-300 hover:after:scale-100
+    }
 }
